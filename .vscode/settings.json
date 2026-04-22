@@ -1,0 +1,99 @@
+{
+  "editor.fontFamily": "monospace, 'Source Han Code JP', 'Cica', 'UDEV Gothic 35', 'HackGen35', 'Fira Code'",
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabCompletion": "on",
+  "editor.snippetSuggestions": "top",
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "all",
+  "editor.renderControlCharacters": true,
+  "editor.renderLineHighlight": "all",
+  "editor.renderLineHighlightOnlyWhenFocus": false,
+  "insertDateString.format": "YYYYMMDDhhmmss",
+  "json.schemas": [
+    {
+      "fileMatch": [".vscode/settings.json"],
+      "url": ""
+    }
+  ],
+  "json.schemaDownload.enable": false,
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "editor.formatOnType": true
+  },
+  "python.defaultInterpreterPath": "/home/kumab/.pyenv/versions/3.13.5/bin/python",
+  "python.analysis.extraPaths": ["deploy/edda"],
+  "python.testing.cwd": "${workspaceFolder}/deploy/edda",
+  "python.testing.pytestArgs": ["tests"],
+  "python.testing.pytestEnabled": true,
+  "python.testing.unittestArgs": ["-v", "-s", "./tests", "-p", "*_test.py"],
+  "python.testing.unittestEnabled": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "todo.tags.names": ["critical", "high", "medium", "low", "today"],
+  "todo.colors.tags.background": [
+    "#e54545", // critical
+    "#e59f45", // high
+    "#00BFFF", // medium
+    "#e5d145", // low
+    "#ae81ff" // today
+  ],
+  "todo.colors.tags.foreground": [
+    "#000000", // critical
+    "#000000", // high
+    "#000000", // medium
+    "#000000", // low
+    "#000000" // today
+  ],
+  "todo.embedded.exclude": [
+    "**/htmlcov/**",
+    "**/.*",
+    "**/.*/**",
+    "**/_output/**",
+    "**/bower_components/**",
+    "**/build/**",
+    "**/dist/**",
+    "**/venv/**",
+    "**/node_modules/**",
+    "**/out/**",
+    "**/output/**",
+    "**/release/**",
+    "**/releases/**",
+    "**/static/**",
+    "**/target/**",
+    "**/third_party/**",
+    "**/vendor/**",
+    "**/CHANGELOG",
+    "**/CHANGELOG.*",
+    "**/*.min.*",
+    "**/*.map",
+    "**/*.{3ds,3g2,3gp,7z,a,aac,adp,ai,aif,aiff,alz,ape,apk,ar,arj,asf,au,avi,bak,baml,bh,bin,bk,bmp,btif,bz2,bzip2,cab,caf,cgm,class,cmx,cpio,cr2,csv,cur,dat,dcm,deb,dex,djvu,dll,dmg,dng,doc,docm,docx,dot,dotm,dra,DS_Store,dsk,dts,dtshd,dvb,dwg,dxf,ecelp4800,ecelp7470,ecelp9600,egg,eol,eot,epub,exe,f4v,fbs,fh,fla,flac,fli,flv,fpx,fst,fvt,g3,gif,graffle,gz,gzip,h261,h263,h264,icns,ico,ief,img,ipa,iso,jar,jpeg,jpg,jpgv,jpm,jxr,key,ktx,lha,lib,lvp,lz,lzh,lzma,lzo,m3u,m4a,m4v,mar,mdi,mht,mid,midi,mj2,mka,mkv,mmr,mng,mobi,mov,movie,mp3,mp4,mp4a,mpeg,mpg,mpga,mxu,nef,npx,numbers,o,oga,ogg,ogv,otf,pages,pbm,pcx,pdb,pdf,pea,pgm,pic,png,pnm,pot,potm,potx,ppa,ppam,ppm,pps,ppsm,ppsx,ppt,pptm,pptx,psd,pya,pyc,pyo,pyv,qt,rar,ras,raw,resources,rgb,rip,rlc,rmf,rmvb,rtf,rz,s3m,s7z,scpt,sgi,shar,sil,sketch,slk,smv,so,sub,swf,tar,tbz,tbz2,tga,tgz,thmx,tif,tiff,tlz,ttc,ttf,txz,udf,uvh,uvi,uvm,uvp,uvs,uvu,viv,vob,war,wav,wax,wbmp,wdp,weba,webm,webp,whl,wim,wm,wma,wmv,wmx,woff,woff2,wvx,xbm,xif,xla,xlam,xls,xlsb,xlsm,xlsx,xlt,xltm,xltx,xm,xmind,xpi,xpm,xwd,xz,z,zip,zipx}"
+  ],
+  "markdownlint.config": {
+    "MD024": false, // 見出しの重複チェック無効化（見出しに付番しないことで、投稿後の記事を読みやすくするため）
+    "MD029": false, // 番号付きリストの連番チェック無効化（リスト途中にコードブロック挟むため）
+    "MD033": false // HTMLタグの混在を許可（HTML併用のために）
+  },
+  "markdown.extension.toc.levels": "2..6",
+  "markdown.extension.toc.updateOnSave": false,
+  "markdown-preview-enhanced.breakOnSingleNewLine": true,
+  "markdown-preview-enhanced.mathRenderingOption": "MathJax",
+  "python-envs.pythonProjects": [
+    {
+      "path": "",
+      "envManager": "ms-python.python:pyenv",
+      "packageManager": "ms-python.python:pip"
+    }
+  ]
+}

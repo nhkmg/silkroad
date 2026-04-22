@@ -1,0 +1,22 @@
+{
+  "recommendations": [
+    "charliermarsh.ruff",
+    "davidanson.vscode-markdownlint",
+    "esbenp.prettier-vscode",
+    "fabiospampinato.vscode-todo-plus",
+    "GitHub.vscode-pull-request-github",
+    "jgclark.vscode-todo-highlight",
+    "jsynowiec.vscode-insertdatestring",
+    "ms-ceintl.vscode-language-pack-ja",
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "ms-vscode-remote.remote-wsl",
+    "ms-vscode-remote.remote-ssh",
+    "njpwerner.autodocstring",
+    "oderwat.indent-rainbow",
+    "sohamkamani.code-eol",
+    "shd101wyy.markdown-preview-enhanced",
+    "taiyofujii.novel-writer",
+    "yzhang.markdown-all-in-one"
+  ]
+}
