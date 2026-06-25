@@ -11,6 +11,9 @@
   "editor.renderControlCharacters": true,
   "editor.renderLineHighlight": "all",
   "editor.renderLineHighlightOnlyWhenFocus": false,
+  "files.associations": {
+    "*.gs": "javascript"
+  },
   "insertDateString.format": "YYYYMMDDhhmmss",
   "json.schemas": [
     {
